@@ -1,0 +1,16 @@
+{
+    "manifest_version": 3,
+    "name": "First Chrome Extension",
+    "version": "420.69",
+    "description": "Video Speed Controller",
+    "content_scripts": [
+        {
+            "matches": [
+                "https://apclassroom.collegeboard.org/*"
+            ],
+            "js": [
+                "video_script.js"
+            ]
+        }
+    ]
+}
