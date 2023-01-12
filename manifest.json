@@ -6,7 +6,7 @@
     "content_scripts": [
         {
             "matches": [
-                "https://apclassroom.collegeboard.org/*"
+                "<all_urls>"
             ],
             "js": [
                 "video_script.js"
